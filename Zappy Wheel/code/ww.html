@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zappy Wheel</title>
+ <link rel="stylesheet" href="ww.css">
+</head>
+<body>
+  <div class="wheel-container">
+    <h1>Zappy Wheel 🎡</h1>
+    <canvas id="wheel" width="400" height="400"></canvas>
+    <button id="spinButton">🎯 Spin the Wheel</button>
+    <div id="result">Spin the wheel to win!</div>
+    <div id="history"></div>
+  </div>
+
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <h2>🎉 Congratulations! 🎉</h2>
+      <p id="popupMessage"></p>
+      <button id="closePopup">Close</button>
+    </div>
+  </div>
+
+  <audio id="spinSound" src="D:\Big Project By NNC\Zappy Wheel\music\spin-232536.mp3"></audio>
+  <audio id="congratsSound" src="D:\Big Project By NNC\Zappy Wheel\music\tada-fanfare-a-6313.mp3"></audio>
+
+   <script src="ww.js"></script>
+</body>
+</html>
